@@ -1,7 +1,8 @@
-import 'package:fardin_project/constants.dart';
-import 'package:fardin_project/views/provide_info_screen.dart';
-import 'package:fardin_project/views/auth/sign_up_screen.dart';
 import 'package:flutter/material.dart';
+
+import '../../constants.dart';
+import 'provide_info_screen.dart';
+import 'sign_up_screen.dart';
 
 class SignInScreen extends StatelessWidget {
   static const routeName = '/sign-in-screen';
