@@ -1,4 +1,4 @@
-import 'package:fardin_project/constants.dart';
+import 'package:fardin_project/controllers/style_controller.dart';
 import 'package:fardin_project/views/starter/second_screen.dart';
 import 'package:flutter/material.dart';
 
