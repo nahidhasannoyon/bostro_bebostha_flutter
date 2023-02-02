@@ -1,5 +1,7 @@
-import 'package:fardin_project/constants.dart';
+import 'package:fardin_project/controllers/style_controller.dart';
 import 'package:flutter/material.dart';
+
+import 'home/bottom_nav_bar_widget.dart';
 
 class ProvideInfoScreen extends StatelessWidget {
   static const routeName = '/provide-info';
@@ -77,17 +79,17 @@ class ProvideInfoScreen extends StatelessWidget {
                   children: [
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        foregroundColor: const Color.fromRGBO(11, 125, 125, 1),
+                        foregroundColor: kSecondaryColor,
                         backgroundColor: const Color.fromRGBO(255, 241, 221, 1),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(32.0),
                           side: const BorderSide(
-                              color: Color.fromRGBO(11, 125, 125, 1), width: 2),
+                              color: kSecondaryColor, width: 2),
                         ),
                       ),
                       onPressed: () {
                         Navigator.of(context)
-                            .pushReplacementNamed(ProvideInfoScreen.routeName);
+                            .pushReplacementNamed(BottomNavBarWidget.routeName);
                       },
                       child: const Padding(
                         padding: EdgeInsets.all(8.0),

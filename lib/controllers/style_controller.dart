@@ -2,10 +2,12 @@ import 'package:flutter/material.dart';
 
 const kBackgroundColor = Color.fromRGBO(255, 241, 221, 1);
 
+const kSecondaryColor = Color.fromRGBO(11, 125, 125, 1);
+
 const kTitleStyle = TextStyle(
   fontFamily: 'MADE-Kenfolg',
   fontSize: 30,
-  color: Color.fromRGBO(11, 125, 125, 1),
+  color: kSecondaryColor,
 );
 
 const kSubtitleStyle = TextStyle(
@@ -20,7 +22,7 @@ const kButtonTextStyle = TextStyle(
 
 var kButtonStyle = ElevatedButton.styleFrom(
   foregroundColor: Colors.white,
-  backgroundColor: const Color.fromRGBO(11, 125, 125, 1),
+  backgroundColor: kSecondaryColor,
   shape: RoundedRectangleBorder(
     borderRadius: BorderRadius.circular(32.0),
   ),
