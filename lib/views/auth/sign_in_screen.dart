@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../constants.dart';
+import '../../controllers/style_controller.dart';
 import 'provide_info_screen.dart';
 import 'sign_up_screen.dart';
 
