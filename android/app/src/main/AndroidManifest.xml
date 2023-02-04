@@ -1,5 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.fardin_project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    
    <application
         android:label="fardin_project"
         android:name="${applicationName}"

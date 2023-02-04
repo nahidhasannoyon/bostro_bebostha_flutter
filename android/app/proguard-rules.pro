@@ -1,0 +1,1 @@
+-keep class com.fardin_project.app.BuildConfig { *; }
