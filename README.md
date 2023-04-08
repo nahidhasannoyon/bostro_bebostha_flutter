@@ -1,4 +1,4 @@
-# fardin_project
+# bostro_bebostha_flutter
 
 A new Flutter project.
 
